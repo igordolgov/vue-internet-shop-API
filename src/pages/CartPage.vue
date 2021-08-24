@@ -59,7 +59,7 @@
         class="content__info"
         v-show="products.length !== 0"
       >
-        Товаров в корзине: {{ totalAmount }}
+        Товаров в корзине: {{ $store.state.cartProducts.length }}
       </span>
     </div>
 
